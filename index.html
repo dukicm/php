@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Milan test php</title>
+
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<h3>Baza omiljenih fudbalskih klubova</h3>
+	</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+			<form action="registerFootballClubs.php" method="post">
+				<div class="form-group">
+					<label for="nameField">Name:</label>
+					<input type="text" class="form-control" id="nameField" name="name" placeholder="Name of a Football Club">
+				</div>
+
+				<div class="form-group">
+					<label for="cityField">City:</label>
+					<input type="text" class="form-control" id="cityField" name="city" placeholder="City">
+				</div>
+
+				<div class="form-group">
+					<label for="nationField">Nation:</label>
+					<input type="text" class="form-control" id="nationField" name="nation" placeholder="Nation">
+				</div>
+
+				<div class="form-group">
+					<input type="submit" class="btn btn-info form-control" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	<script src="main.js"></script>
+</body>
+</html>
